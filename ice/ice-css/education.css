@@ -1,0 +1,35 @@
+body {
+    background-color: pink;
+}
+
+div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+  section {
+    text-align: center;
+    list-style-position: inside;
+  }
+
+  section.list {
+      text-align: center;
+      list-style-position: inside;
+  }
+
+  ol {
+      text-align: left;
+  }
+
+li {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      padding: 0.5em 0;
+  }
+
+  section.top{
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+  }
