@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Mochiy+Pop+P+One&display=swap');
+
 body {
-    background-color: orange;
+    background-color: #f4f1de;
+    font-size: 22px;
+    font-family: "Exo 2";
+    margin: 0;
+    padding: 0;
+}
+
+#logo-link {
+    padding-top: 5px;
 }
 
 .logo {
-    width: 80px;
+    width: 110px;
 
 }
 
@@ -16,12 +26,13 @@ div.content {
     width: 100%;
 }
 
-nav a {
-    text-align: center;
-}
 
 #hero-msg {
     text-align: center;
+}
+
+#hero-img {
+    width: 1000px;
 }
 
 .button-box {
@@ -32,89 +43,131 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
-    background-color: grey;
+    background-color: #e07a5f;
 }
 
 header {
-    background-color: grey;
+    background-color: #e07a5f;
+    color: #f4f1de
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    display: block;
 }
 
 nav a:hover {
-    background-color: grey;
-    color: orange;
+    background-color: #e07a5f;
+    color: #f4f1de;
 }
 
 .book:hover, .join:hover {
-    background-color: green;
-    color: orange;
+    background-color: #e07a5f;
+    color: #f4f1de;
 }
 
 .msg {
-    background-color: grey;
+    background-color: #f4f1de;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+p {
+    background-color: #e07a5f ;
+    color: #f4f1de;
 }
 
 footer {
-    background-color: grey;
+    background-color: #f4f1de;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding: 15px;
 }
 
 nav a {
     text-align: center;
-    color: black;
+    color: #3d405b;
     text-decoration: none;
+    text-align: center;
+    padding: 35px;
 }
 
 
 .home-title {
-    color: black;
+    color: #3d405b;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {   
-    color: black;
+    color: #3d405b;
 }
 
-.book {
-    color: black;
-    background-color: orange;
+h2 {
+    text-align: center;
+    margin: 0;
+    color: #3d405b
+}
+
+h1 {
+    color: #3d405b
+}
+
+.book, .join {
+    color: #3d405b;
+    background-color: #f4f1de;
     text-decoration: none;
     text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
+.card-img {
+    border: 10px solid #3d405b ;
 
-.join {
-    color:black;
-    background-color: grey;
-    text-decoration: none;
 }
 
 .msg h2 {
-    color: black;
+    color: #3d405b;
 }
 
 .msg p {
-    color: black;
+    color: #3d405b;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
-    color: black;
+    color: #3d405b;
 }
 
 footer a {
-    color: black;
+    color: #3d405b;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: black;
+    color: #3d405b;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer {
     text-decoration: underline;
+    padding: 25px 50px;
 }
 
 h3 {
@@ -124,3 +177,8 @@ h3 {
 a:hover {
     text-decoration: underline;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Mochiy Pop P One";
+    color: #81b29a;
+  }

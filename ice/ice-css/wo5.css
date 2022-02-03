@@ -1,0 +1,21 @@
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.img {
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid gray;
+    margin: 50px 25px;
+
+}
+
+div.bottom {
+    background-color: darkslategray;
+}
+
+main {
+    margin: 0 auto;
+    width: 1024px;
+}

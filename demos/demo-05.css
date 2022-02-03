@@ -1,0 +1,15 @@
+section {
+    width: 500px;
+    border: 20px dashed yellow;
+    padding: 200px;
+    margin: 50px;
+    background-color: turquoise;
+    border-radius: 20%;
+}
+
+#picture {
+    width: 500px;
+    border-radius: 25%;
+    border: 500px solid blueviolet;
+    overflow: auto;
+}
