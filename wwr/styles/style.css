@@ -3,7 +3,7 @@
 body {
     background-color: #f4f1de;
     font-size: 22px;
-    font-family: "Exo 2";
+    font-family: "Exo 2", "Didot Serif", "Trebuchet MS";
     margin: 0;
     padding: 0;
 }
@@ -179,6 +179,6 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Mochiy Pop P One";
+    font-family: "Mochiy Pop P One","Didot Serif", "Trebuchet MS";
     color: #81b29a;
   }
