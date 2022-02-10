@@ -1,0 +1,29 @@
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
+
+.red {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.yellow {
+    grid-column: 1/3;
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+}
+.green {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+.blue {
+     width: 100%;
+    height: 100px;
+    background-color: blue;
+}
