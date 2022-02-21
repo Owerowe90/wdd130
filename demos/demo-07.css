@@ -1,0 +1,39 @@
+header {
+    background-color: darkblue;
+}
+
+a {
+    color: thistle;
+    text-decoration: none;
+    padding: 0.8rem;
+    display: inline-block;
+}
+
+a:hover {
+    color: darkblue;
+    background-color: thistle;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container section {
+    flex: 200px;
+    border: 10px black solid;
+
+}
+
+@media screen and (max-width:400px) {
+    nav {
+        flex-direction: column;
+    }
+}
