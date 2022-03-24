@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Mochiy+Pop+P+One&display=swap');
 
+.content {
+    max-width: 1400px;
+    margin: auto 0;
+}
 header {
     display: grid;
     grid-template-columns: 1fr;
@@ -33,7 +37,7 @@ nav a:hover {
     max-width: 300px;
     padding: 10px;
     border-radius: 50%;
-    box-shadow: 10px 5px 5px black; 
+    /* box-shadow: 10px 5px black;  */
     margin-bottom: 20px;
 }
 
@@ -97,7 +101,9 @@ h1 {
     grid-template-rows: 100px 50px;
     margin-top: 200px;
     margin-bottom: 200px;
-
+    background-color: #423629;
+    color:#f2f2f2;
+    padding: 25px;
 }
 .quote h3 {
     grid-column: 1/2;
@@ -108,12 +114,14 @@ h1 {
     grid-column: 1/2;
     grid-row: 2/3;
     text-align: center;
+    background-color: #423629;
 }
 
 .bottom {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 100px 150px 300px 300px 200px 200px;
+    background-color: #B0B2B8;
 }
 
 .bottom h2 {
@@ -169,23 +177,112 @@ h1 {
     padding-left: 10px;
 }
 
+footer {
+    display: flex;
+}
 footer .social img {
     padding: 15px;
 }
 
-  /* @media screen and (max-width: 700px) {
-    .topnav {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .topnav a {float: left;}
-    div.content {margin-left: 0;}
-  }
-  
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      text-align: center;
-      float: none;
-    }
-  } */
+/* location page */
+
+.location {
+    margin: auto 0;
+}
+
+.islandpark {
+    display: grid;
+    grid-template-columns: 2fr 100px 1fr;
+    grid-template-rows: 50px 1fr;
+    margin: 50px;
+}
+
+#manyFisherman {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.islandpark p {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 15px;
+    background-color:#B0B2B8;
+    border-radius: 10%;
+    margin: auto 0;
+    box-shadow: 10px 5px 5px black; 
+}
+
+.islandpark p:hover {
+    transform: scale(1.5);
+}
+
+.greenriver {
+    display: grid;
+    grid-template-columns: 1fr 100px 2fr;
+    grid-template-rows: 50px 1fr;
+    margin: 50px;
+}
+
+#green {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.greenriver p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 15px;
+    background-color: #B0B2B8;
+    border-radius: 10%;
+    margin: auto 0;
+    box-shadow: 10px 5px 5px black; 
+}
+
+.greenriver p:hover {
+    transform: scale(1.2);
+}
+
+.palisades {
+    display: grid;
+    grid-template-columns: 2fr 100px 1fr;
+    grid-template-rows: 50px 1fr;
+    margin: 50px;
+}
+
+#waders {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.palisades p {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 15px;
+    background-color: #B0B2B8;
+    border-radius: 10%;
+    margin: auto 0;
+    box-shadow: 10px 5px 5px black; 
+}
+
+.palisades p:hover {
+    transform: scale(1.5);
+}
+
+h2.title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+    text-decoration: underline;
+}
